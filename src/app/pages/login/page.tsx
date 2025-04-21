@@ -11,7 +11,7 @@ export default function Login() {
     setError("");
 
     try {
-      const response = await fetch("https://postbox.biz/api/auth/adminLogin", {
+      const response = await fetch("https://eziotravels.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

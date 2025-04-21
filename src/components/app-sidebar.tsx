@@ -67,7 +67,7 @@ export function AppSidebar() {
           </SidebarMenuItem>
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
-              <Link href="#">
+              <Link href="/pages/kyc">
                 <Shield className="h-4 w-4" />
                 <span>KYC Verification</span>
                 <Badge variant="outline" className="ml-auto">
